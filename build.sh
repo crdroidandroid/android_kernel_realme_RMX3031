@@ -7,7 +7,7 @@ export LC_ALL=C && export USE_CCACHE=1
 ccache -M 100G
 export ARCH=arm64
 export KBUILD_BUILD_HOST=origin
-export KBUILD_BUILD_USER="nishant6342"
+export KBUILD_BUILD_USER="crdroid"
 clangbin=clang/bin/clang
 if ! [ -a $clangbin ]; then git clone --depth=1 https://github.com/nishant6342/android_prebuilts_clang_host_linux-x86_clang-6443078 clang
 fi
